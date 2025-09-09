@@ -1,0 +1,160 @@
+
+
+
+
+
+#hide{
+    opacity: 0;
+    cursor: none;
+    visibility: hidden;
+}
+
+.simple-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+     background-color: #070B17;
+}
+
+
+.simple-nav {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.home-nav .nav-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.back-button .back-icon {
+    width: 45px;
+    height: 18px;
+    cursor: pointer;
+}
+
+
+.nav-search-and-balance {
+    display: flex;
+    align-items: center;
+}
+
+.search-group {
+    width: 280px;
+    height: 34px;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+}
+
+.search-icon {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.search-input {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+.user-balance{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.wallet-icon .icon{
+    width: 23px;
+    height: 23px;
+}
+.rupee-icon .icon{
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    margin-top: 0px;
+    
+}
+.balance-amount{
+    font-size: 17px;
+    color: #fff;
+    margin-left: 3px;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .simple-nav {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+
+.nav-search-and-balance {
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-group {
+    width: 200px;
+    height: 34px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.search-icon {
+    width: 35px;
+    height: 35px;
+   
+}
+
+.user-balance{
+    margin-left: 10px;
+}
+.wallet-icon .icon{
+    width: 20px;
+    height: 20px;
+}
+.rupee-icon{
+    margin-right: 5px;
+    margin-left: 3px;
+}
+.rupee-icon .icon{
+    width: 15px;
+    height: 15px;
+    margin-top: 0px;
+}
+.balance-amount{
+    font-size: 16px;
+    color: #fff;
+}
+
+    }
+
+
+   

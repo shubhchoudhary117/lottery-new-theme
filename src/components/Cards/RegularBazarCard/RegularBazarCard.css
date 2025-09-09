@@ -1,0 +1,469 @@
+
+
+
+.Link{
+    text-decoration: none;
+}
+.satta-market-card {
+    width: 260px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+.satta-market-card-img {
+    width: 100%;
+    
+}
+
+.bazar-content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.bazar-details {
+    max-width: 75%;
+    text-align: start;
+}
+
+.bazar-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: var(--font-family);
+}
+
+.bazar-rate {
+    color: #EABA13;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.runnig-mssg {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 14px;
+    font-family: var(--font-family);
+    animation: blinking 1.5s linear infinite ;
+}
+
+
+@keyframes blinking {
+    50%{
+        opacity: 0;
+    }
+}
+
+
+.bazar-live-details {
+    text-align: center;
+}
+
+.live-tv {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: var(--font-family);
+}
+
+.result {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: var(--font-family);
+}
+
+.bazar-open-close-box {
+    width: 100%;
+    border-radius: 11px;
+    background:linear-gradient(#324FBF,#1F2D74);
+    margin-top: 3px;
+
+
+}
+
+.bazar-open-close-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 13px 7px 13px;
+    box-sizing: border-box;
+}
+
+.bazar-open,
+.bazar-close {
+    text-align: center;
+}
+
+.bazar-time {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+.bazar-status {
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 14px;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.runnig-time {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #EABA13;
+}
+
+.clock-icon {
+    width: 21px;
+    height: 21px;
+
+}
+
+
+.clock-img {
+    width: 21px;
+    height: 21px;
+}
+
+.tv-icon {
+    width: 18px;
+    height: 18px;
+}
+
+@media screen and (min-width:769px) and (max-width:820px) {
+    .satta-market-card {
+        width: 255px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) {
+   
+    .satta-market-card {
+        width: 195px;
+    }
+
+    .bazar-details {
+        max-width: 75%;
+        text-align: start;
+    }
+
+    .bazar-name {
+        font-size: 11px;
+        text-wrap: nowrap;
+        font-weight: 600;
+
+        font-family: var(--font-family);
+    }
+
+    .bazar-rate {
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .runnig-mssg {
+        font-size: 10px;
+        font-weight: 400;
+
+        line-height: 14px;
+        font-family: var(--font-family);
+    }
+
+    .bazar-live-details {
+        text-align: center;
+    }
+
+    .live-tv {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+    .result {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+    .bazar-open-close-box {
+        width: 100%;
+        border-radius: 11px;
+
+        margin-top: 3px;
+    }
+
+    .bazar-open-close-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 11px 3px 11px;
+    }
+
+    .bazar-open,
+    .bazar-close {
+        text-align: center;
+    }
+
+    .bazar-time {
+        font-size: 11px;
+
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .bazar-status {
+        font-size: 11px;
+
+        font-weight: 300;
+        line-height: 14px;
+        font-family: var(--font-family);
+    }
+
+    .runnig-time {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 13px;
+
+    }
+
+    .clock-icon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .clock-img {
+        width: 17px;
+        height: 17px;
+    }
+
+
+}
+
+@media screen and (min-width:370px) and (max-width:390px) {
+    
+    .satta-market-card {
+        width:180px;
+    }
+
+    .bazar-details {
+        max-width: 75%;
+        text-align: start;
+    }
+
+    .bazar-name {
+        font-size: 11px;
+        text-wrap: nowrap;
+
+        font-weight: 600;
+
+        font-family: var(--font-family);
+    }
+
+    .bazar-rate {
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .runnig-mssg {
+        font-size: 10px;
+        font-weight: 400;
+
+        line-height: 14px;
+        font-family: var(--font-family);
+    }
+
+    .bazar-live-details {
+        text-align: center;
+    }
+
+    .live-tv {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+    .result {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+    .bazar-open-close-box {
+        width: 100%;
+        border-radius: 11px;
+
+        margin-top: 3px;
+    }
+
+    .bazar-open-close-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 11px 3px 11px;
+    }
+
+    .bazar-open,
+    .bazar-close {
+        text-align: center;
+    }
+
+    .bazar-time {
+        font-size: 11px;
+
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .bazar-status {
+        font-size: 11px;
+
+        font-weight: 300;
+        line-height: 14px;
+        font-family: var(--font-family);
+    }
+
+    .runnig-time {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 13px;
+
+    }
+
+    .clock-icon {
+        width: 17px;
+        height: 17px;
+
+    }
+
+    .clock-img {
+        width: 17px;
+        height: 17px;
+    }
+
+
+}
+
+
+@media screen and (min-width:340px) and (max-width:370px) {
+    
+
+    .satta-market-card {
+        width: 165px;
+    }
+
+    .bazar-name {
+        font-size: 11px;
+        text-wrap: nowrap;
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .bazar-rate {
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .runnig-mssg {
+        font-size: 10px;
+        font-weight: 400;
+
+        line-height: 14px;
+        font-family: var(--font-family);
+    }
+
+    .bazar-live-details {
+        text-align: center;
+    }
+
+    .live-tv {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+    .result {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+    .bazar-open-close-box {
+        width: 100%;
+        border-radius: 11px;
+
+        margin-top: 3px;
+    }
+
+    .bazar-open-close-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 11px 3px 11px;
+    }
+
+    .bazar-open,
+    .bazar-close {
+        text-align: center;
+    }
+
+    .bazar-time {
+        font-size: 11px;
+
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .bazar-status {
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 14px;
+        font-family: var(--font-family);
+    }
+
+    .runnig-time {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 13px;
+
+    }
+
+    .clock-icon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .clock-img {
+        width: 17px;
+        height: 17px;
+    }
+
+}

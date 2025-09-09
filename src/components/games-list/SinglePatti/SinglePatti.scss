@@ -1,0 +1,140 @@
+.game-view_ {
+    width: 100%;
+
+    .game-view-container_ {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .game-view-left-section_ {
+            width: 60%;
+
+            .game-view-table_ {
+                width: 100%;
+
+                .game-view-table-digits-container_ {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .table-digit-button {
+                        width: 50px;
+                        height: 50px;
+                        background-color: #04113B;
+                        border: 1px solid #162D99;
+                        color: #ffffff;
+                        border-radius: 10px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin: 4px;
+                        transition: transform 0.5s ease-in-out;
+
+                        &:active {
+                            transform: scale(0.9);
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .game-view-right-section_ {
+            width: 40%;
+
+            .betslip-box_ {
+                width: 98%;
+                padding: 15px 0px;
+                background-color: #070B17;
+
+                .betslip-title_ {
+                    text-align: center;
+                    font-size: 17px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                }
+
+                .betslip-input-group_ {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .betslip-rupee-icon {
+                        font-size: 17px;
+                        color: #ffffff;
+                    }
+
+                    .betlips-input-amount_ {
+                        font-size: 17px;
+                        font-weight: bold;
+                        color: #ffffff;
+                        margin-left: 10px;
+                    }
+                }
+
+                .betslip-actions_ {
+                    width: 90%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+
+                    .betslip-button_ {
+                        width: 100%;
+                        height: 40px;
+                        background: linear-gradient(#324FBF, #1F2D74);
+                        color: #ffffff;
+                        font-size: 17px;
+                        border-radius: 8px;
+                        border: none;
+                        outline: none;
+                        margin: auto;
+                        border: 1px solid #2E469B;
+                    }
+                }
+
+            }
+            .last-results-table{
+                width: 100%;
+                margin-top: 10px;
+                padding: 10px 0px;
+                background-color: #070B17;
+                .last-result-table-header_{
+                    width: 90%;
+                    margin: auto;
+                    padding: 10px 0px;
+                    border-bottom: 1px solid #FFFFFF;
+                    .last-result-heading{
+                        text-align: center;
+                        font-size: 16px;
+                        color: #ffffff;
+                    }
+                }
+                .last-results-list_{
+                    width: 100%;
+                    margin-top: 10px;
+                    .last-result-group_{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin-bottom: 10px;
+                        .last-result-date_{
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #ffffff;
+                        }
+                        .last-result-id_{
+                            font-size: 16px;
+                            color: #7485B8;
+                            font-weight: 600;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

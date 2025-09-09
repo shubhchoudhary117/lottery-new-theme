@@ -1,0 +1,117 @@
+.bazar-section {
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.bazar-card-swiper-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5px !important;
+    justify-items: center;
+
+}
+
+.swiperContainer {
+    display: flex;
+
+}
+@media screen and (min-width:770px) and (max-width:820px) {
+    .bazar-card-swiper-container {
+        width: 98%;
+        margin: auto;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 14px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .bazar-card-swiper-container {
+        width: 98%;
+        margin: auto;
+        margin-top: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 14px;
+        justify-items: center;
+    }
+
+
+
+}
+
+@media screen and (min-width:370px) and (max-width:390px) {
+    .bazar-card-swiper-container {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 14px;
+        justify-items: center;
+    }
+
+
+}
+
+
+@media screen and (min-width:340px) and (max-width:370px) {
+    .bazar-card-swiper-container {
+        width: 98%;
+        margin: auto;
+        margin-top: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 14px;
+    }
+
+
+
+}
+
+
+
+.swiper-container {
+    margin-top: 15px !important;
+}
+
+#provider-swiper .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #31469C;
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+
+#provider-swiper .swiper-pagination-bullet-inactive {
+    opacity: 1;
+    background-color: #333;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+
+
+#provider-swiper .swiper-pagination-bullet {
+    display: inline-block;
+    height: 2px;
+    width: 20px;
+    -webkit-appearance: none;
+}
+
+#provider-swiper .swiper-pagination {
+    position: relative;
+    margin-top: 5px;
+}
+
+.top-provider-image {
+
+    width: 320px;
+    margin-inline-end: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}

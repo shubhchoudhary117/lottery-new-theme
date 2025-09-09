@@ -1,0 +1,23 @@
+
+.satta-market-card-img{
+    border-radius: 6px;
+}
+
+.starline{
+    margin-top: 5px;
+}
+.starline-bazar-time{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #EABA13;
+    margin-top: -20px;
+}
+.starline-bazar-close-timing{
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+}

@@ -1,0 +1,323 @@
+
+
+
+.Link{
+    text-decoration: none;
+}
+.king-bazar-card {
+    width: 260px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+.king-bazar-card-img {
+    width: 100%;
+    border-radius: 6px;
+    
+}
+
+.bazar-content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.bazar-details {
+    max-width: 75%;
+    text-align: start;
+}
+
+.bazar-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: var(--font-family);
+}
+.re-text{
+    color: #EABA13;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 2px 0px;
+}
+
+.runnig-mssg{
+    padding: 2px 0px;
+}
+
+.runnig-mssg {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 14px;
+    font-family: var(--font-family);
+    animation: blinking 1.5s linear infinite ;
+}
+
+
+
+
+@keyframes blinking {
+    50%{
+        opacity: 0;
+    }
+}
+
+
+
+.bazar-open-close-box {
+    width: 100%;
+    border-radius: 11px;
+    background-color: #353540;
+    margin-top: 3px;
+    padding: 2px 0px;
+
+}
+
+.bazar-open-close-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 13px 7px 13px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.king-bazar-timing{
+    width: 100%;
+    text-align: center;
+}
+
+.king-bazar-time {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+
+
+.king-bazar-running-time {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #EABA13;
+    padding-top: 3px;
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:820px) {
+    .king-bazar-card {
+        width: 255px;
+        
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+   
+    .king-bazar-card {
+        width: 195px;
+    }
+
+    .bazar-details {
+        max-width: 75%;
+        text-align: start;
+    }
+
+    .bazar-name {
+        font-size: 11px;
+        text-wrap: nowrap;
+        font-weight: 600;
+
+        font-family: var(--font-family);
+    }
+
+
+    .runnig-mssg {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        font-family: var(--font-family);
+    }
+
+    .bazar-live-details {
+        text-align: center;
+    }
+
+
+    .bazar-open-close-box {
+        width: 100%;
+        border-radius: 11px;
+
+        margin-top: 3px;
+    }
+
+    .bazar-open-close-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 11px 3px 11px;
+    }
+
+  
+    .king-bazar-time {
+        font-size: 11px;
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .king-bazar-running-time {
+        font-size: 10px;
+        padding-top: 2px;
+    }
+    
+
+   
+
+
+}
+
+@media screen and (min-width:370px) and (max-width:390px) {
+    
+    .king-bazar-card {
+        width:180px;
+    }
+
+    .bazar-details {
+        max-width: 75%;
+        text-align: start;
+    }
+
+    .bazar-name {
+        font-size: 11px;
+        text-wrap: nowrap;
+        font-weight: 600;
+
+        font-family: var(--font-family);
+    }
+
+
+    .runnig-mssg {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        font-family: var(--font-family);
+    }
+
+    .bazar-live-details {
+        text-align: center;
+    }
+
+  
+  
+
+    .bazar-open-close-box {
+        width: 100%;
+        border-radius: 11px;
+
+        margin-top: 3px;
+    }
+
+    .bazar-open-close-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 11px 3px 11px;
+    }
+
+
+    .king-bazar-time {
+        font-size: 11px;
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+    .king-bazar-running-time {
+        font-size: 10px;
+        padding-top: 2px;
+    }
+    
+}
+
+
+@media screen and (min-width:340px) and (max-width:370px) {
+    
+
+    .king-bazar-card {
+        width: 165px;
+    }
+
+    .bazar-name {
+        font-size: 11px;
+        text-wrap: nowrap;
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .bazar-rate {
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+    .runnig-mssg {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        font-family: var(--font-family);
+    }
+
+    .bazar-live-details {
+        text-align: center;
+    }
+
+    .live-tv {
+        font-size: 10px;
+        font-weight: 400;
+
+        font-family: var(--font-family);
+    }
+
+
+    .bazar-open-close-box {
+        width: 100%;
+        border-radius: 11px;
+
+        margin-top: 3px;
+    }
+
+    .bazar-open-close-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3px 11px 3px 11px;
+    }
+
+    .bazar-open,
+    .bazar-close {
+        text-align: center;
+    }
+
+    .king-bazar-time {
+        font-size: 11px;
+        font-weight: 600;
+        font-family: var(--font-family);
+    }
+
+    .king-bazar-running-time {
+        font-size: 10px;
+        padding-top: 2px;
+    }
+    
+
+
+
+}

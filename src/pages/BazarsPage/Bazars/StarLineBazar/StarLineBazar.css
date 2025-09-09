@@ -1,0 +1,34 @@
+.bazar-section{
+    width: 100%;
+}
+.starline-bazar-name{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size:18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 0px 0px 10px 0px;
+   
+}
+
+.starline-game-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.starline-link{
+    text-decoration: none;
+}
+.starline-card{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin: 0px 7px;
+}
+.starline-card-img{
+    width: 100%;
+    height: 100%;
+}

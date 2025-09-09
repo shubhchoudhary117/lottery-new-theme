@@ -1,0 +1,96 @@
+.place-bet-page_ {
+    width: 100%;
+
+    .place-bet-page-container_ {
+        width: 100%;
+
+        .place-bet-page-fixed-header_ {
+            width: 100%;
+
+            .place-bet-fixed-header-row_{
+                width: 94%;
+                margin: auto;
+                display: flex;
+                padding: 10px 0px;
+                justify-content: space-between;
+            }
+
+                .market-name-for-betplace_ {
+                    font-size: 23px;
+                    font-weight: bold;
+                    color: #ffffff;
+                    text-shadow:
+                        2px 2px 4px #2165F6,
+                        -2px -2px 6px rgba(255, 255, 255, 0.6);
+                }
+
+                .custom-akda-selector-section_ {
+                    display: flex;
+                    align-items: center;
+
+                    .cusotm-akda-selector-label_ {
+                        font-size: 17px;
+                        font-weight: 600;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        margin-right: 10px;
+                    }
+
+                    .custom-akda-selector-action_ {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 10px;
+                        margin-left: 10px;
+                        border: 2px solid #4069A7;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+
+                }
+
+                .akda-actions-group_{
+                    width: 48%;
+                    height: 45px;
+                    border-radius: 8px;
+                    background-color: #070B17;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            
+        }
+        .place-bet-note-box_{
+            width: 94%;
+            margin: auto;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+            background-color: #070B17;
+            margin-top: 10px;
+            border-radius: 8px;
+            .place-bet-note-left_{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                .place-bet-note-message_{
+                    font-size: 16px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                }
+            }
+            .place-bet-note-right_{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                .place-bet-min-max_{
+                    font-size: 12px;
+                    color: #EABA13;
+                }
+            }
+        }
+    }
+}
