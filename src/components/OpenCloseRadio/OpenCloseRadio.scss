@@ -1,0 +1,41 @@
+.toggle-container {
+            display: flex;
+            background-color: #070B17;
+            border-radius: 4px;
+            overflow: hidden;
+}
+
+.toggle-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px 20px;
+            background: transparent;
+            border: none;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+}
+
+.toggle-btn:hover {
+            background: #2a2a3d;
+}
+
+.circle {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid #aaa;
+            display: inline-block;
+            background: transparent;
+            transition: background 0.3s, border-color 0.3s;
+}
+
+.toggle-btn.active .circle {
+            background: #2E469B;
+            /* Green fill when active */
+            border-color: #2E469B;
+}

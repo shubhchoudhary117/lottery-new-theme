@@ -2,7 +2,8 @@
     width: 100%;
 
     .place-bet-page-container_ {
-        width: 100%;
+        width: 70%;
+        margin: auto;
 
         .place-bet-page-fixed-header_ {
             width: 100%;
@@ -93,4 +94,78 @@
             }
         }
     }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .place-bet-page_ {
+    width: 100%;
+
+    .place-bet-page-container_ {
+        width: 100%;
+      
+        .place-bet-page-fixed-header_ {
+            width: 100%;
+
+            .place-bet-fixed-header-row_{
+                width: 94%;
+              
+            }
+
+                .market-name-for-betplace_ {
+                    font-size: 20px;
+                    
+                }
+
+                .custom-akda-selector-section_ {
+                    display: flex;
+                    align-items: center;
+
+                    .cusotm-akda-selector-label_ {
+                        font-size: 17px;
+                        font-weight: 600;
+                      
+                    }
+
+                    .custom-akda-selector-action_ {
+                        width: 30px;
+                        height: 30px;
+                       
+                    }
+
+
+                }
+
+                .akda-actions-group_{
+                    width: 48%;
+                    height: 45px;
+                  
+                }
+
+            
+        }
+        .place-bet-note-box_{
+            width: 94%;
+           
+         
+            .place-bet-note-left_{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                .place-bet-note-message_{
+                    font-size: 14px;
+                   
+                }
+            }
+            .place-bet-note-right_{
+                width: 50%;
+                .place-bet-min-max_{
+                    font-size: 12px;
+                   
+                }
+            }
+        }
+    }
+}
 }

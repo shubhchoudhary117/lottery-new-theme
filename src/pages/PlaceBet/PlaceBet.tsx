@@ -4,6 +4,11 @@ import Header from '../../components/AppHeader/Header'
 import { ChevronsDown } from "lucide-react";
 import BettingCoinsTabs from '../../components/BettingCoinsTabs/BettingCoinsTabs';
 import SinglePatti from '../../components/games-list/SinglePatti/SinglePatti';
+import OpenCloseToggle from "../../components/OpenCloseRadio/OpenCloseRadio";
+import SingleAkda from '../../components/games-list/SingleAkda/SingleAkda';
+import PrimeJodi from '../../components/games-list/PrimeJodi/PrimeJodi';
+import HalfRed from '../../components/games-list/HalfRed/HalfRed';
+import EvenOddPanna from '../../components/games-list/EvenOddPanna/EvenOddPanna';
 
 const PlaceBet = () => {
     return <>
@@ -30,7 +35,9 @@ const PlaceBet = () => {
                             </div>
                         </div>
                         <div className="akda-actions-group_">
-
+                            <div>
+                                <OpenCloseToggle />
+                            </div>
                         </div>
                     </div>
                     <BettingCoinsTabs />
@@ -42,7 +49,7 @@ const PlaceBet = () => {
                             <div className="place-bet-min-max_">Note : Bet Amount Should Bet Grater then or equal to</div>
                         </div>
                     </div>
-                    <SinglePatti/>
+                    <EvenOddPanna />
 
                 </div>
             </main>
