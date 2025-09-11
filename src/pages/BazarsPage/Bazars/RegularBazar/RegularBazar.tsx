@@ -22,7 +22,7 @@ const RegularBazar = () => {
     const getRegularBazars = async () => {
         let token = getToken();
         console.log(token)
-        let payload = {status:"A"};
+        let payload = {};
         console.log(payload)
         setLoader(true);
         await Regular_Bazar_APIs.get_Regular_Bazars(payload, token)

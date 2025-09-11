@@ -14,7 +14,7 @@
 
 .satta-market-card-img {
     width: 100%;
-    
+    min-height: 150px;
 }
 
 .bazar-content-container {
@@ -58,7 +58,6 @@
     }
 }
 
-
 .bazar-live-details {
     text-align: center;
 }
@@ -80,9 +79,9 @@
 .bazar-open-close-box {
     width: 100%;
     border-radius: 11px;
-    background:linear-gradient(#324FBF,#1F2D74);
+    background:linear-gradient(#04113B,#221455);
     margin-top: 3px;
-
+    border: 1px solid #544299;
 
 }
 

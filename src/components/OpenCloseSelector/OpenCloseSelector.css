@@ -1,0 +1,101 @@
+
+
+
+/* select market open close input ------------------------ */
+.select-open-close-container {
+    width: 62%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+
+}
+
+.open-close-input-groups {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #353540;
+    border-radius: 6px;
+}
+
+.open-close-radio {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    border: 1px solid #353540;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.open-close-radio input[type="radio"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #3c3c47; 
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .open-close-radio input[type="radio"]:checked {
+    border-color: #ffffff;
+    background-color: #3c3c47; 
+  }
+  
+  .open-close-radio input[type="radio"]:checked::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #EABA13;
+    margin: 3.5px auto;
+    
+  }
+  
+  .open-close-radio input[type="radio"]:hover {
+    border-color: #707070; 
+  }
+
+.open-close-label {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* select market open close input ------------------------ */
+    .select-open-close-container {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+
+    .open-close-input-groups {
+        width: 100%;
+        margin: auto;
+    }
+
+    .open-close-radio {
+        width: 49%;
+    }
+
+
+    .open-close-label {
+        font-size: 13px;
+    }
+}

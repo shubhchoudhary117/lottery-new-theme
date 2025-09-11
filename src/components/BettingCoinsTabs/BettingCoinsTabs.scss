@@ -4,7 +4,6 @@
 
     .select-coin-wrapper {
         width: 100%;
-        margin: auto;
         margin-top: 10px;
 
         .coins {
@@ -15,16 +14,29 @@
             justify-content: space-between;
 
             .coin {
+                width: 55px;
+                height: 55px;
+                position: relative;
                 .coin-img {
-                    width: 50px;
-                    height: 50px;
+                    width: 55px;
+                    height: 55px;
                     cursor: pointer;
                     transform: scale(0.9);
                     transition: 0.05s ease all;
+                    object-fit: fill;
 
                     &:hover {
                         transform: scale(1.1);
                     }
+                }
+                .coin-value_{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                    font-weight: bold;
+                    color: #ffffff;
+                    font-size: 12px;
                 }
             }
         }
@@ -44,19 +56,17 @@
         .select-coin-wrapper {
             width: 100%;
            
-
             .coins {
-                width: 80%;
+                width: 60%;
                 margin: auto;
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
                 .coin {
-                    margin: 0px 3px;
                     .coin-img {
-                        width: 50px;
-                        height: 50px;
+                        width: 40px;
+                        height: 40px;
                     }
                 }
             }

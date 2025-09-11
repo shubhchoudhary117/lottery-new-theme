@@ -1,0 +1,168 @@
+.akda-table_ {
+    width: 100%;
+
+    .akda-table-header_ {
+        width: 100%;
+    }
+
+    .akda-table-body_ {
+        width: 100%;
+
+        .akda-table-body-tr_ {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .akda-table-td_ {
+                margin: 4px;
+                position: relative;
+
+                .akda-table-akda_ {
+                    width: 38px;
+                    height: 38px;
+                    color: #ffffff;
+                    border-radius: 10px;
+                    font-size: 13px;
+                    font-weight: bold;
+                    transition: transform 0.5s ease-in-out;
+                    cursor: pointer;
+
+                    .coin-value_ {
+                        color: #ffffff;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+
+
+                    &:nth-of-type(odd) {
+                        background-color: #04113B;
+                        border: 1px solid #162D99;
+                    }
+
+                    &:nth-of-type(even) {
+                        background-color: #221455;
+                        border: 1px solid #894BC3;
+                    }
+
+                    &:active {
+                        transform: scale(0.9);
+                    }
+                }
+
+                .inserted-coin-wrapper_ {
+                    width:30px;
+                    height:30px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: -10px;
+
+                    .inserted-table-coin {
+                        width: 30px;
+                        height: 30px;
+                        object-fit: fill;
+
+                    }
+
+                    .inserted-conin-value_ {
+                        width: 30px;
+                        height: 30px;
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        top: 0px;
+                        left: 50%;
+                        font-size: 10px;
+                        color: #ffffff;
+                        transform: translateX(-50%);
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .akda-table-footer_ {
+        width: 100%;
+        margin-top: 10px;
+
+        .akda-table-footer-actions_ {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 5px 5px;
+
+            .akda-table-footer-action_ {
+                width: 30%;
+                height: 34px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(#04113B, #435799);
+                border: 2px solid #BDBDBD;
+                cursor: pointer;
+                color: #ffffff;
+                transition: 0.5s ease-in-out;
+                margin: 5px;
+
+                &:active {
+                    transform: scale(0.9);
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .akda-table_ {
+        width: 100%;
+
+        .akda-table-header_ {
+            width: 100%;
+        }
+
+        .akda-table-body_ {
+            width: 100%;
+
+            .akda-table-body-tr_ {
+                width: 100%;
+                justify-content: center;
+
+                .akda-table-td_ {
+                    margin: 4px 2px;
+
+                    .akda-table-akda_ {
+                        width: 35px;
+                        height: 35px;
+
+                    }
+                }
+            }
+        }
+
+        .akda-table-footer_ {
+            width: 100%;
+            margin-top: 10px;
+
+            .akda-table-footer-actions_ {
+                width: 100%;
+                justify-content: space-evenly;
+
+                .akda-table-footer-action_ {
+                    width: 45%;
+                    margin-bottom: 7px;
+
+                }
+            }
+        }
+
+    }
+}

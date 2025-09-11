@@ -2,12 +2,13 @@
     width: 100%;
 
     .place-bet-page-container_ {
-        width: 100%;
+        width: 70%;
+        margin: auto;
 
         .place-bet-page-fixed-header_ {
             width: 100%;
 
-            .place-bet-fixed-header-row_{
+            .place-bet-fixed-header-row_ {
                 width: 94%;
                 margin: auto;
                 display: flex;
@@ -15,13 +16,178 @@
                 justify-content: space-between;
             }
 
+            .place-bet-action_ {
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .market-name-for-betplace_ {
+                width: 100%;
+                font-size: 20px;
+                font-weight: bold;
+                color: #ffffff;
+                text-shadow:
+                    2px 2px 4px #2165F6,
+                    -2px -2px 6px rgba(255, 255, 255, 0.6);
+                text-transform: uppercase;
+            }
+
+            .custom-akda-selector-section_ {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                position: relative;
+                justify-content: center;
+
+
+                .cusotm-akda-selector-label_ {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    margin-right: 10px;
+                }
+
+                .custom-akda-selector-action_ {
+                    width: 27px;
+                    height: 27px;
+                    border-radius: 10px;
+                    margin-left: 10px;
+                    border: 2px solid #4069A7;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: transform 0.5s ease-in-out;
+                    cursor: pointer;
+
+                    &.no-border {
+                        border: none;
+                    }
+
+                    &:active {
+                        transform: scale(0.9);
+                    }
+
+                    .select-jodi-icon_ {
+                        font-size: 1px !important;
+                    }
+
+
+                }
+
+                .custom-select-options-list_ {
+                    width: 100%;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    background-color: #070B17;
+                    position: absolute;
+                    left: 50%;
+                    top: 100%;
+                    z-index: 9999;
+                    transform: translateX(-50%);
+                    border: 1px solid #4069A7;
+
+                    &::-webkit-scrollbar {
+                        width: 6px;
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        background: transparent;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background-color: #4069A7;
+                        border-radius: 6px;
+                    }
+
+                    .custom-select-option_ {
+                        width: 100%;
+                        height: 28px;
+                        display: flex;
+                        align-items: center;
+                        border-bottom: 1px solid #4069A7;
+                        font-size: 13px;
+                        color: #ffffff;
+                        cursor: pointer;
+                        padding-left: 10px;
+                        font-weight: 600;
+
+                        &:first-child {
+                            border-top: 1px springgreen #4069A7;
+                        }
+                    }
+                }
+            }
+
+            .akda-actions-group_ {
+                width: 48%;
+                height: 35px;
+                border-radius: 8px;
+                background-color: #070B17;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+        }
+
+        .place-bet-note-box_ {
+            width: 94%;
+            margin: auto;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 16px;
+            background-color: #070B17;
+            margin-top: 10px;
+            border-radius: 8px;
+
+            .place-bet-note-left_ {
+                width: 50%;
+                display: flex;
+                align-items: center;
+
+                .place-bet-note-message_ {
+                    font-size: 14px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                }
+            }
+
+            .place-bet-note-right_ {
+                width: 50%;
+                display: flex;
+                align-items: center;
+
+                .place-bet-min-max_ {
+                    font-size: 12px;
+                    color: #EABA13;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .place-bet-page_ {
+        width: 100%;
+
+        .place-bet-page-container_ {
+            width: 100%;
+            margin: auto;
+
+            .place-bet-page-fixed-header_ {
+                width: 100%;
+
+                .place-bet-fixed-header-row_ {
+                    width: 94%;
+                }
+
                 .market-name-for-betplace_ {
                     font-size: 23px;
-                    font-weight: bold;
-                    color: #ffffff;
-                    text-shadow:
-                        2px 2px 4px #2165F6,
-                        -2px -2px 6px rgba(255, 255, 255, 0.6);
                 }
 
                 .custom-akda-selector-section_ {
@@ -30,65 +196,44 @@
 
                     .cusotm-akda-selector-label_ {
                         font-size: 17px;
-                        font-weight: 600;
-                        color: #ffffff;
-                        text-transform: uppercase;
-                        margin-right: 10px;
                     }
 
                     .custom-akda-selector-action_ {
                         width: 30px;
                         height: 30px;
-                        border-radius: 10px;
-                        margin-left: 10px;
-                        border: 2px solid #4069A7;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
                     }
 
 
                 }
 
-                .akda-actions-group_{
+                .akda-actions-group_ {
                     width: 48%;
                     height: 45px;
-                    border-radius: 8px;
-                    background-color: #070B17;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-
-            
-        }
-        .place-bet-note-box_{
-            width: 94%;
-            margin: auto;
-            height: 60px;
-            display: flex;
-            justify-content: space-between;
-            padding: 0px 10px;
-            background-color: #070B17;
-            margin-top: 10px;
-            border-radius: 8px;
-            .place-bet-note-left_{
-                width: 50%;
-                display: flex;
-                align-items: center;
-                .place-bet-note-message_{
-                    font-size: 16px;
-                    color: #ffffff;
-                    text-transform: capitalize;
                 }
             }
-            .place-bet-note-right_{
-                width: 50%;
-                display: flex;
-                align-items: center;
-                .place-bet-min-max_{
-                    font-size: 12px;
-                    color: #EABA13;
+
+            .place-bet-note-box_ {
+                width: 94%;
+                margin: auto;
+                height: 60px;
+
+                .place-bet-note-left_ {
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+
+                    .place-bet-note-message_ {
+                        font-size: 16px;
+                    }
+                }
+
+                .place-bet-note-right_ {
+                    width: 50%;
+
+
+                    .place-bet-min-max_ {
+                        font-size: 12px;
+                    }
                 }
             }
         }

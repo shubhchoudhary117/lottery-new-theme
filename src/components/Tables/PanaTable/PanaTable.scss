@@ -1,0 +1,50 @@
+.pana-table-section {
+    width: 100%;
+    margin-top: 10px;
+
+    .pana-table {
+        width: 100%;
+        margin: auto;
+        border-bottom: 2px solid #79797E;
+    }
+
+    .pana-table>tbody {
+        border-top: 1px solid red !important;
+    }
+
+    .pana-table thead th {
+        border-bottom: 2px solid #79797E;
+        padding-bottom: 10px;
+    }
+
+    .pana-table>thead>tr>th {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+    .pana-table>tbody tr td {
+        text-align: center;
+        font-size: 13px;
+        color: #fff;
+        padding: 10px;
+    }
+
+
+    .total-pana-and-total-amount-labels {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+
+        .total-panas,
+        .total-amount {
+            font-size: 13px;
+            color: #ffffff;
+            text-transform: capitalize;
+        }
+    }
+}

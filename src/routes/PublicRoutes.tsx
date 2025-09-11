@@ -1,17 +1,17 @@
-// import React, { Suspense, lazy } from "react";
-// import { useRoutes } from "react-router-dom";
-// import Loader from "../Components/Loader/Loader";
+import React, { Suspense, lazy } from "react";
+import { useRoutes } from "react-router-dom";
+import Loader from "../components/Loader/Loader";
 
-// // Lazy imports
-// const Authentication = lazy(() => import("../Pages/Authentication/Authentication"));
+// Lazy imports
+const Authentication = lazy(() => import("../pages/Authentication/Authentication"));
 
-// const publicRoutes = [
-//     { path: "/login", element: <Authentication /> },
-// ];
+const publicRoutes = [
+    { path: "/login", element: <Authentication /> },
+];
 
-// const PublicRoutes  = () => {
-//     const routes = useRoutes(publicRoutes);
-//     return <Suspense fallback={<Loader />}>{routes}</Suspense>;
-// };
+const PublicRoutes  = () => {
+    const routes = useRoutes(publicRoutes);
+    return <Suspense fallback={<Loader />}>{routes}</Suspense>;
+};
 
-// export default PublicRoutes;
+export default PublicRoutes;

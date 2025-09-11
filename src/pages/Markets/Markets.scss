@@ -1,0 +1,317 @@
+* {
+    text-decoration: none;
+}
+
+.satta-market-game-section {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.satta-market-bazar-header {
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #070B17;
+    margin-top: 10px;
+    border-radius: 8px;
+
+    .satta-market-bazar-name {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+
+        span {
+            color: #EABA13;
+            margin: 0px 3px;
+        }
+    }
+}
+
+.old-result-container_ {
+    width: 70%;
+    height: 28px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #070B17;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    .old-result-label{
+        color: #EABA13;
+    }
+     .old-result-value_{
+        color: #fff;
+        margin-left: 10px;
+    }
+}
+
+.satta-market-bazar-name {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.satta-market-game-layout {
+    width: 100%;
+}
+
+.game-layout-container {
+    width: 100%;
+}
+
+.game-layout-indo {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.game-layout-indo {
+    margin-top: 10px;
+}
+
+.result-type-marker {
+    width: 120px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #353540;
+    color: #EABA13;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.game-bazar-rate {
+    margin-top: 7px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.market-dealer-detail {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.satta-market-game-frame {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.satta-market-frame-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.market-live-marker {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#324FBF, #1F2D74);
+    margin-top: 6psatta-market-bazar-headerx;
+    position: relative;
+}
+
+.live-marker {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D80000;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: -24px;
+    transform: translateX(-50%);
+    font-size: 11px;
+}
+
+.live-marker-bazar-name {
+    font-size: 19px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.satta-market-open-close-info {
+    width: 100%;
+}
+
+.satta-market-open-close-container {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.market-time-divider {
+    width: 3px;
+    height: 35px;
+    background-color: #EABA13;
+}
+
+.satta-market-open-close-info {
+    text-align: center;
+}
+
+.market-open-close-time-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.market-open-close-time-in-hourse {
+    font-size: 13px;
+    font-weight: 400;
+    color: #EABA13;
+    margin-top: 2px;
+}
+
+.satta-game-akda-buttons-section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.satta-game-akda-buttons-container {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5;
+    justify-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+.game-type-box_ {
+    max-width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.game-type-image_ {
+    width: 68px;
+    height: 68px;
+}
+
+.game-type-name_ {
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -3px;
+}
+
+@media screen and (max-width:768px) {
+    .game-type-box_ {
+        max-width: 100px;
+
+    }
+
+    .game-type-image_ {
+        width: 78px;
+        height: 78px;
+    }
+
+    .game-type-name_ {
+        font-size: 11px;
+
+    }
+}
+
+@media screen and (min-width:344px) and (max-width:360px) {
+    .game-type-box_ {
+        max-width: 80px;
+
+    }
+
+    .game-type-image_ {
+        width: 68px;
+        height: 68px;
+    }
+
+    .game-type-name_ {
+        font-size: 11px;
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .satta-market-bazar-name {
+        font-size: 12px;
+    }
+
+    .game-layout-indo {
+        width: 80%;
+        margin: auto;
+    }
+
+    .game-layout-indo {
+        margin-top: 10px;
+    }
+
+    .market-dealer-detail {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .satta-market-game-frame {
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .live-marker-bazar-name {
+        font-size: 14px;
+    }
+
+
+    .satta-market-open-close-container {
+        width: 90%;
+    }
+
+    .market-open-close-time-text {
+        font-size: 13px;
+    }
+
+    .market-open-close-time-in-hourse {
+        font-size: 13px;
+    }
+
+    .satta-game-akda-buttons-container {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+}

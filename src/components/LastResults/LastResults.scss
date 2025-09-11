@@ -1,0 +1,46 @@
+ .last-results-table {
+                width: 100%;
+                margin-top: 10px;
+                padding: 10px 0px;
+                background-color: #070B17;
+
+                .last-result-table-header_ {
+                    width: 90%;
+                    margin: auto;
+                    padding: 10px 0px;
+                    border-bottom: 1px solid #FFFFFF;
+
+                    .last-result-heading {
+                        text-align: center;
+                        font-size: 16px;
+                        color: #ffffff;
+                    }
+                }
+
+                .last-results-list_ {
+                    width: 100%;
+                    margin-top: 10px;
+
+                    .last-result-group_ {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin-bottom: 10px;
+
+                        .last-result-date_ {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #ffffff;
+                        }
+
+                        .last-result-id_ {
+                            font-size: 16px;
+                            color: #7485B8;
+                            font-weight: 600;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }

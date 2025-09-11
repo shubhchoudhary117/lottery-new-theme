@@ -60,9 +60,10 @@
     color: #fff;
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 10px;
     transform: translateY(-50%);
-    margin-left: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .search-input {

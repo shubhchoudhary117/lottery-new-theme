@@ -1,0 +1,75 @@
+.validation-page_ {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.validation-page-container_ {
+    width: 100%;
+    height: 100vh;
+}
+
+.validation-message-box_ {
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    box-shadow: 1 1 1 6 #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.validation-type_ {
+    font-size: 23px;
+    font-weight: bold;
+    color: #1D4665;
+    text-transform: uppercase;
+    font-family: var(--exchange-font-family);
+}
+
+.validation-message_ {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ccc;
+    font-family: var(--exchange-font-family);
+    padding-top: 5px;
+}
+
+.access-denied-icon_ {
+    color: #90101A !important;
+    font-size: 40px !important;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .validation-message-box_ {
+        width: 90%;
+
+    }
+
+    .validation-type_ {
+        font-size: 23px;
+        font-weight: bold;
+        color: #1D4665;
+        text-transform: uppercase;
+    }
+
+    .validation-message_ {
+        max-width: 80%;
+        text-align: center;
+
+    }
+
+    .access-denied-icon_ {
+        font-size: 40px !important;
+        margin-top: 20px;
+    }
+}

@@ -20,7 +20,7 @@ const Header: React.FC<headerProps> = ({ isGame }) => {
                     {!isGame &&
                         <div className="nav-search-and-balance">
                             <div className="search-group">
-                                <span className="search-icon"><Search size={18} className='search-icon' /></span>
+                                <div className="search-icon"><Search size={18}  /></div>
                                 <input type="text" className='search-input' placeholder='Search' />
                             </div>
 

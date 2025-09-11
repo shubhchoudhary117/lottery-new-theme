@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css"
 import { BrowserRouter } from "react-router-dom";
 import PrivateRoutes from "./routes/PrivateRoutes";
+import PublicRoutes from "./routes/PublicRoutes";
 
 
 const Application = () => {
@@ -36,6 +37,7 @@ const Application = () => {
 
   return (
     <BrowserRouter>
+      <PublicRoutes />
       <PrivateRoutes />
     </BrowserRouter>
   );
